@@ -40,7 +40,7 @@ Extract it into ```dataset/dtu-train-512/``` folder.
 ## Training
 We provide default parameters to train a 4 scale NP-CVP-MVSNet on the DTU dataset in the ```train.sh```
 
-You can modify training parameters and model parameters in ```train.sh``` and start training by
+Modify training parameters and model parameters in ```train.sh``` and start training by
 ```
 sh train.sh
 ```
@@ -56,7 +56,7 @@ sh eval.sh
 ```
 Depth maps will be generated in ```OUT_DIR```.
 
-## Fusion
+## Depth Fusion
 [fusibile](https://github.com/kysucix/fusibile) can be used to fuse all depth maps into a point cloud for each scan.
 
 We use the modified version of fusibile provided by [MVSNet](https://github.com/YoYo000/MVSNet).
@@ -81,7 +81,7 @@ ln -s FUSIBILE_EXE_PATH NP-CVP-MVSNet/fusion/fusibile
 ```
 Scripts to launch fusibile for depth fusion can be found in ```fusion``` directory.
 
-You can start depth fusion by modify the ```fusion.sh``` and start with following command.
+Set the correct path in ```fusion.sh``` and start depth fusion with following command.
 
 ```
 sh fusion.sh
@@ -89,7 +89,7 @@ sh fusion.sh
 
 When finish, you can find point cloud ```*.ply``` files in ```DEPTH_FOLDER``` folder.
 
-You can use [Meshlab](https://www.meshlab.net/) to display the generated point cloud ```.ply``` files.
+[Meshlab](https://www.meshlab.net/) can be used to display the generated point cloud ```.ply``` files.
 
 ## Evaluation
 The official Matlab evaluation code and ground-truth point cloud can be downloaded from [DTU website](https://roboimagedata.compute.dtu.dk/?page_id=36).
