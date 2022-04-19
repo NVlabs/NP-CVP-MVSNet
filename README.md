@@ -94,7 +94,7 @@ You can use [Meshlab](https://www.meshlab.net/) to display the generated point c
 ## Evaluation
 The official Matlab evaluation code and ground-truth point cloud can be downloaded from [DTU website](https://roboimagedata.compute.dtu.dk/?page_id=36).
 
-The official evaluation code will compare the generated validation or testing point cloud ```.ply``` files with ground-truth point cloud provided by DTU and report the *accuracy* and *completeness* score, shown in Table 1. Overall score is the arithematic average of mean *accuracy* and mea *completeness* for all scans.
+The official evaluation code will compare the generated validation or testing point cloud ```.ply``` files with ground-truth point cloud provided by DTU and report the *accuracy* and *completeness* score, shown in Table 1. Overall score is the arithematic average of mean *accuracy* and mean *completeness* for all scans.
 
 <div align="center">
   <img src="./resources/dtu.png" height="250">
