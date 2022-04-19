@@ -97,7 +97,7 @@ The official Matlab evaluation code and ground-truth point cloud can be download
 The official evaluation code will compare the generated validation or testing point cloud ```.ply``` files with ground-truth point cloud provided by DTU and report the *accuracy* and *completeness* score, shown in Table 1. Overall score is the arithematic average of mean *accuracy* and mea *completeness* for all scans.
 
 <div align="center">
-  <img src="./resources/dtu.png" height="200">
+  <img src="./resources/dtu.png" height="250">
 </div>
 <p align="center">
   Table 1: NP-CVP-MVSNet achieved best overall reconstruction quality on DTU dataset
