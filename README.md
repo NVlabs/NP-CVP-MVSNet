@@ -92,11 +92,16 @@ When finish, you can find point cloud ```*.ply``` files in ```DEPTH_FOLDER``` fo
 You can use [Meshlab](https://www.meshlab.net/) to display the generated point cloud ```.ply``` files.
 
 ## Evaluation
-We use the official evaluation code probided by DTU dataset.
-
 The official Matlab evaluation code and ground-truth point cloud can be downloaded from [DTU website](https://roboimagedata.compute.dtu.dk/?page_id=36).
 
-The official evaluation code will compare the generated point cloud ```.ply``` files with ground-truth point cloud provided by DTU and report the *accuracy* and *completeness* score, as shown in Figure 2.
+The official evaluation code will compare the generated point cloud ```.ply``` files with ground-truth point cloud provided by DTU and report the *accuracy* and *completeness* score, shown in Table 1. Overall score is the arithematic average of mean *accuracy* and mea *completeness* for all scans.
+
+<div align="center">
+  <img src="./resources/dtu.png" height="200">
+</div>
+<p align="center">
+  Table 1: NP-CVP-MVSNet achieved best overall reconstruction quality on DTU dataset
+</p>
 
 ## License
 Please check the LICENSE file. NP-CVP-MVSNet may be used non-commercially, meaning for research or 
