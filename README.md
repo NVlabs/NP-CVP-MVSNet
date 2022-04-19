@@ -27,9 +27,9 @@ This code is tested on following packages.
 * PyTorch 1.10.1
 * [torchsparse](https://github.com/mit-han-lab/torchsparse)
 
-Follow the [official instructions](https://pytorch.org/get-started/previous-versions/) to install PyTorch.
+Follow the instructions in [here](https://pytorch.org/get-started/previous-versions/) to install PyTorch.
 
-Follow the instructions in [Torchsparse](https://github.com/mit-han-lab/torchsparse) to install torchsparse.
+Follow the instructions in [here](https://github.com/mit-han-lab/torchsparse) to install torchsparse.
 
 ## Data preparation
 
@@ -54,7 +54,7 @@ Inference depth map by
 ```
 sh eval.sh
 ```
-Depth maps will be generated at the specific path defined by ```OUT_DIR```.
+Depth maps will be generated in ```OUT_DIR```.
 
 ## Fusion
 [fusibile](https://github.com/kysucix/fusibile) can be used to fuse all depth maps into a point cloud for each scan.
@@ -94,7 +94,7 @@ You can use [Meshlab](https://www.meshlab.net/) to display the generated point c
 ## Evaluation
 The official Matlab evaluation code and ground-truth point cloud can be downloaded from [DTU website](https://roboimagedata.compute.dtu.dk/?page_id=36).
 
-The official evaluation code will compare the generated point cloud ```.ply``` files with ground-truth point cloud provided by DTU and report the *accuracy* and *completeness* score, shown in Table 1. Overall score is the arithematic average of mean *accuracy* and mea *completeness* for all scans.
+The official evaluation code will compare the generated validation or testing point cloud ```.ply``` files with ground-truth point cloud provided by DTU and report the *accuracy* and *completeness* score, shown in Table 1. Overall score is the arithematic average of mean *accuracy* and mea *completeness* for all scans.
 
 <div align="center">
   <img src="./resources/dtu.png" height="200">
