@@ -21,7 +21,7 @@ It can achieve superior performance on small objects and boundary regions, see F
 
 ## Installation
 
-This code is tested on following packages.
+This code is tested on following environment.
 
 * CUDA 11.3
 * PyTorch 1.10.1
