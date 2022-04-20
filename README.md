@@ -25,7 +25,7 @@ This code is tested on following environment.
 
 * CUDA 11.3
 * PyTorch 1.10.1
-* [torchsparse](https://github.com/mit-han-lab/torchsparse)
+* [torchsparse](https://github.com/mit-han-lab/torchsparse) 1.4.0
 
 Follow the instructions in [here](https://pytorch.org/get-started/previous-versions/) to install PyTorch.
 
